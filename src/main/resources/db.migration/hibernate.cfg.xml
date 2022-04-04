@@ -28,6 +28,7 @@
 
         <!-- Names the annotated entity class -->
 
+        <mapping class = "io.github.winhour.Lang"/>
 
 
         <!-- Assume test is the database name -->

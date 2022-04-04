@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "languages")
+//@Table(name = "languages")
 public class Lang {
 
     @Id
@@ -23,6 +23,16 @@ public class Lang {
         this.welcomeMsg = welcomeMsg;
         this.code = code;
     }
+
+
+
+    /*Used in hibernate*/
+
+    @SuppressWarnings("unused")
+    public Lang(){
+
+    }
+
 
     public Long getId() {
         return id;
